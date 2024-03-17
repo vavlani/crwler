@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crwler"
+version = "0.0.1"
+description = "A streamlined web crawler designed to methodically map and download content."
+authors = [{name = "vavlani", email = "vivek.avlani@gmail.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+keywords = ["crawler", "web", "sitemap", "downstream", "download"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "pytest"
+]
+
+[project.urls]
+Homepage = "http://example.com/"
+Repository = "https://github.com/yourusername/crwler"
+Documentation = "http://example.com/docs"
+

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/crwler.py
+src/utilities.py
+src/crwler.egg-info/PKG-INFO
+src/crwler.egg-info/SOURCES.txt
+src/crwler.egg-info/dependency_links.txt
+src/crwler.egg-info/requires.txt
+src/crwler.egg-info/top_level.txt
+tests/test_crwler.py
+tests/test_utilities.py
