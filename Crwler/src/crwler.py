@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from urllib.parse import urljoin, urlparse
-from .utilities import download_page, get_dir_path
+from utilities import download_page, get_dir_path
 
 def extract_links(url, main_url_netloc, main_url_dir_path):
     response = requests.get(url)
@@ -67,5 +67,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Crwler: Web Crawler for Hierarchical Site Mapping.')
     parser.add_argument('--url', required=True, help='Base URL to start crawling from')
+    parser.add_argument('--output_dir', required=True, help='Absolute folder path for downloaded files')
     args = parser.parse_args()
-    crawl_website(args.url)
+    crawl_website(args.url, args.output_dir)
+
