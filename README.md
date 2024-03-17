@@ -27,7 +27,7 @@ python crwler.py --url https://example.com/baseurl_that_you_want_to_start_from/ 
 
 ## Contributing
 
-Contributions are welcome! Please see our contributing guidelines for more details.
+Contributions welcome!
 
 ## License
 
